@@ -1,0 +1,17 @@
+# Default values for rook-operator.
+image:
+  prefix: quay.io/rook
+  repository: quay.io/rook/rookd
+  tag: master-latest
+  pullPolicy: IfNotPresent
+
+resources:
+  limits:
+    cpu: 100m
+    memory: 64Mi
+  requests:
+    cpu: 100m
+    memory: 64Mi
+
+# If true, create & use RBAC resources
+rbacEnable: true
