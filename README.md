@@ -1,3 +1,9 @@
+Initial work
+============
+
+Taken from a PR by @hunter on the Rook repository and made into a standalone helm chart.
+ttps://github.com/rook/rook/pull/688
+
 rook-operator
 =============
 
